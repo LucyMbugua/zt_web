@@ -116,13 +116,13 @@
                                 <p><b>Q1.Which type of financial institution do you belong to from the options
                                         below?</b></p>
                                 <input id="bank" name="institution" value="1" class="form-check-input" type="radio"
-                                    name="flexRadioDefault" id="flexRadioDefault1">
+                                    name="flexRadioDefault" id="flexRadioDefault1" required>
                                 <label for="bank">Bank</label>
                                 <input id="insurance" value="2" name="institution" class="form-check-input" type="radio"
-                                    name="flexRadioDefault" id="flexRadioDefault1">
+                                    name="flexRadioDefault" id="flexRadioDefault1" required>
                                 <label for="insurance">Insurance</label>
                                 <input id="sacco" value="3" name="institution" class="form-check-input" type="radio"
-                                    name="flexRadioDefault" id="flexRadioDefault1">
+                                    name="flexRadioDefault" id="flexRadioDefault1" required>
                                 <label for="sacco">Sacco</label>
                             </div>
                         </div>
@@ -136,10 +136,10 @@
                                         Software Defined Networking (SDN) to be built and operated.</b></p>
                                 <p><b>a)Have you implemented Software defined Access/Branch</b></p>
                                 <input id="yes" name="sda" value="1" class="form-check-input" type="radio"
-                                    name="flexRadioDefault" id="flexRadioDefault1">
+                                    name="flexRadioDefault" id="flexRadioDefault1" required>
                                 <label for="yes">Yes</label>
                                 <input id="no" name="sda" value="2" class="form-check-input" type="radio"
-                                    name="flexRadioDefault" id="flexRadioDefault1">
+                                    name="flexRadioDefault" id="flexRadioDefault1" required>
                                 <label for="no">No</label>
 
                             </div>
@@ -152,10 +152,10 @@
                             <div>
                                 <p><b>b)Have you implemented Software defined WAN </b></p>
                                 <input id="yes" name="sdwan" value="1" class="form-check-input" type="radio"
-                                    name="flexRadioDefault" id="flexRadioDefault1">
+                                    name="flexRadioDefault" id="flexRadioDefault1" required>
                                 <label for="yes">Yes</label>
                                 <input id="no" name="sdwan" value="2" class="form-check-input" type="radio"
-                                    name="flexRadioDefault" id="flexRadioDefault1">
+                                    name="flexRadioDefault" id="flexRadioDefault1" required>
                                 <label for="no">No</label>
 
                             </div>
@@ -168,10 +168,10 @@
                             <div>
                                 <p><b>c)Have you implemented Software defined Data Center </b></p>
                                 <input id="yes" name="sddc" value="1" class="form-check-input" type="radio"
-                                    name="flexRadioDefault" id="flexRadioDefault1">
+                                    name="flexRadioDefault" id="flexRadioDefault1" required>
                                 <label for="yes">Yes</label>
                                 <input id="no" name="sddc" value="2" class="form-check-input" type="radio"
-                                    name="flexRadioDefault" id="flexRadioDefault1">
+                                    name="flexRadioDefault" id="flexRadioDefault1" required>
                                 <label for="no">No</label>
 
                             </div>
@@ -185,10 +185,10 @@
                                 <p><b>Q3.Are your networks segmented to prevent lateral movement?
                                     </b></p>
                                 <input id="yes" name="segmentation" value="1" class="form-check-input" type="radio"
-                                    name="flexRadioDefault" id="flexRadioDefault1">
+                                    name="flexRadioDefault" id="flexRadioDefault1" required>
                                 <label for="yes">Yes</label>
                                 <input id="no" name="segmentation" value="2" class="form-check-input" type="radio"
-                                    name="flexRadioDefault" id="flexRadioDefault1">
+                                    name="flexRadioDefault" id="flexRadioDefault1" required>
                                 <label for="no">No</label>
                             </div>
                         </div>
@@ -204,23 +204,23 @@
 
                                 <ul class='likert'>
                                     <li>
-                                        <input type="radio" name="encryption" value="1">
+                                        <input type="radio" name="encryption" value="1" required>
                                         <label>1 - No Encryption</label>
                                     </li>
                                     <li>
-                                        <input type="radio" name="encryption" value="2">
+                                        <input type="radio" name="encryption" value="2" required>
                                         <label>2</label>
                                     </li>
                                     <li>
-                                        <input type="radio" name="encryption" value="3">
+                                        <input type="radio" name="encryption" value="3" required>
                                         <label>3 - Partial encryption</label>
                                     </li>
                                     <li>
-                                        <input type="radio" name="encryption" value="4">
+                                        <input type="radio" name="encryption" value="4" required>
                                         <label>4</label>
                                     </li>
                                     <li>
-                                        <input type="radio" name="encryption" value="5">
+                                        <input type="radio" name="encryption" value="5" required>
                                         <label>5 - Full Encryption </label>
                                     </li>
                                 </ul>
@@ -238,23 +238,23 @@
 
                                 <ul class='likert'>
                                     <li>
-                                        <input type="radio" name="mfa" value="1">
+                                        <input type="radio" name="mfa" value="1" required>
                                         <label>1 - No MFA</label>
                                     </li>
                                     <li>
-                                        <input type="radio" name="mfa" value="2">
+                                        <input type="radio" name="mfa" value="2" required>
                                         <label>2</label>
                                     </li>
                                     <li>
-                                        <input type="radio" name="mfa" value="3">
+                                        <input type="radio" name="mfa" value="3" required>
                                         <label>3 - Partial MFA(Some users)</label>
                                     </li>
                                     <li>
-                                        <input type="radio" name="mfa" value="4">
+                                        <input type="radio" name="mfa" value="4" required>
                                         <label>4</label>
                                     </li>
                                     <li>
-                                        <input type="radio" name="mfa" value="5">
+                                        <input type="radio" name="mfa" value="5" required>
                                         <label>5 -Full MFA (All users) </label>
                                     </li>
                                 </ul>
@@ -272,23 +272,23 @@
 
                                 <ul class='likert'>
                                     <li>
-                                        <input type="radio" name="sso" value="1">
+                                        <input type="radio" name="sso" value="1" required>
                                         <label>1 - No SSO</label>
                                     </li>
                                     <li>
-                                        <input type="radio" name="sso" value="2">
+                                        <input type="radio" name="sso" value="2" required>
                                         <label>2</label>
                                     </li>
                                     <li>
-                                        <input type="radio" name="sso" value="3">
+                                        <input type="radio" name="sso" value="3" required>
                                         <label>3 - Partial SSO(Some users)</label>
                                     </li>
                                     <li>
-                                        <input type="radio" name="sso" value="4">
+                                        <input type="radio" name="sso" value="4" required>
                                         <label>4</label>
                                     </li>
                                     <li>
-                                        <input type="radio" name="sso" value="5">
+                                        <input type="radio" name="sso" value="5" required>
                                         <label>5 -Full SSO (All users) </label>
                                     </li>
                                 </ul>
@@ -305,10 +305,10 @@
                                         enterprise resources?
                                     </b></p>
                                 <input id="yes" value="1" name="policy_engine" class="form-check-input" type="radio"
-                                    name="flexRadioDefault" id="flexRadioDefault1">
+                                    name="flexRadioDefault" id="flexRadioDefault1" required>
                                 <label for="yes">Yes</label>
                                 <input id="no" value="2" name="policy_engine" class="form-check-input" type="radio"
-                                    name="flexRadioDefault" id="flexRadioDefault1">
+                                    name="flexRadioDefault" id="flexRadioDefault1" required>
                                 <label for="no">No</label>
                             </div>
                         </div>
@@ -324,23 +324,23 @@
 
                                 <ul class='likert'>
                                     <li>
-                                        <input type="radio" name="mdm" value="1">
+                                        <input type="radio" name="mdm" value="1" required>
                                         <label>1 - No MDM</label>
                                     </li>
                                     <li>
-                                        <input type="radio" name="mdm" value="1">
+                                        <input type="radio" name="mdm" value="1" required>
                                         <label>2</label>
                                     </li>
                                     <li>
-                                        <input type="radio" name="mdm" value="1">
+                                        <input type="radio" name="mdm" value="1" required>
                                         <label>3 - Partial MDM(Some users)</label>
                                     </li>
                                     <li>
-                                        <input type="radio" name="mdm" value="1">
+                                        <input type="radio" name="mdm" value="1" required>
                                         <label>4</label>
                                     </li>
                                     <li>
-                                        <input type="radio" name="mdm" value="1">
+                                        <input type="radio" name="mdm" value="1" required>
                                         <label>5 -Full MDM (All users) </label>
                                     </li>
                                 </ul>
@@ -357,10 +357,10 @@
                                         devices?
                                     </b></p>
                                 <input id="yes" name="dlp" class="form-check-input" type="radio" name="flexRadioDefault"
-                                    value="1" id="flexRadioDefault1">
+                                    value="1" id="flexRadioDefault1" required>
                                 <label for="yes">Yes</label>
                                 <input id="no" name="dlp" value="2" class="form-check-input" type="radio"
-                                    name="flexRadioDefault" id="flexRadioDefault1">
+                                    name="flexRadioDefault" id="flexRadioDefault1" required>
                                 <label for="no">No</label>
                             </div>
                         </div>

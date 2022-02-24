@@ -35,13 +35,11 @@ def index():
         # make prediction using model loaded
         prediction = model.predict(np.array(float_resp_list))
 
-        session['messages'] = list(prediction)
-
-        # print("prediction", prediction)
+        print("prediction", prediction)
         print("prediction type", type(prediction))
-        flash("sudf", 'success')
+        # flash("sudf", 'success')
 
-        return redirect(url_for('index'))
+        # return redirect(url_for('index'))
 
 
     return render_template("index.html")
